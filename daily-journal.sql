@@ -18,3 +18,4 @@ INSERT INTO `Entry` VALUES (null, 'POST', 'post data', '1598458548249', 1);
 
 INSERT INTO `Mood` VALUES (null, "sad");
 INSERT INTO `Mood` VALUES (null, "happy");
+
