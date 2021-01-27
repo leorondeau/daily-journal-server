@@ -8,8 +8,9 @@ CREATE TABLE `Entry` (
 );
 
 CREATE TABLE `Mood` (
-    `id` INTEGER,
+    `id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     `label` TEXT NOT NULL
+    
 )
 
 INSERT INTO `Entry` VALUES (null, 'Hooks', 'confusing', '1598458543321', 1);
@@ -18,4 +19,5 @@ INSERT INTO `Entry` VALUES (null, 'POST', 'post data', '1598458548249', 1);
 
 INSERT INTO `Mood` VALUES (null, "sad");
 INSERT INTO `Mood` VALUES (null, "happy");
+
 
