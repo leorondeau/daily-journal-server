@@ -5,4 +5,8 @@ class Entry():
         self.concept = concept
         self.entry = entry
         self.date = date
-        self.mood_id = mood_id
+        self.moodId = mood_id
+
+
+# The self side need to match the JSON property names 
+
